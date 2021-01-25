@@ -1,0 +1,370 @@
+body {}
+
+
+/* End Section navbar */
+
+.navbar {
+    border: none;
+    background-color: #ffffff;
+    min-height: 200px;
+    border-radius: none;
+}
+
+.navbar .navbar-header {
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+.navbar .navbar-header,
+.navbar-collapse {
+    padding-top: 60px;
+}
+
+.navbar .btn-default {
+    color: hsl(321, 100%, 78%);
+    background-color: #fff0;
+    border-color: hsl(321, 100%, 78%);
+    border-radius: 50px;
+    width: 140px;
+    font-size: 18px;
+    padding: 6px 20px;
+    margin-top: 13px;
+    float: right;
+}
+
+
+/* End Section navbar */
+
+
+/* Start Section info */
+
+.info {
+    margin-top: 90px;
+    margin-bottom: 80px;
+}
+
+.info h1 {
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: 40px;
+    color: hsl(192, 100%, 9%);
+    line-height: 1.4;
+}
+
+.info p {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-size: 20px;
+    color: #265879;
+    max-width: 600px;
+    margin: auto;
+    font-family: "open sans";
+}
+
+.info .btn {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 20px 100px;
+    border-radius: 50px;
+    background-color: hsl(321, 100%, 78%);
+    color: #ffffff;
+    border: none;
+}
+
+.info .btn:hover {
+    box-shadow: 10px 10px 10px #ddd;
+}
+
+.info img {
+    margin: 100px auto 0;
+}
+
+
+/* End Section info */
+
+
+/* Start Section statistics */
+
+.statistics {
+    margin-bottom: 200px;
+}
+
+.statistics i {
+    color: hsl(321, 100%, 78%);
+    text-align: left
+}
+
+.statistics h2 {
+    color: hsl(192, 100%, 9%);
+    font-weight: 700;
+    font-size: 65px;
+}
+
+.statistics p {
+    color: #7c99a0;
+    font-size: 16px;
+    padding-bottom: 50px;
+}
+
+
+/* End Section statistics */
+
+
+/* Start Section Content */
+
+.content .overlay {
+    background-color: #f6fbff;
+    width: 100%;
+    position: relative;
+    padding-top: 20px;
+}
+
+.content .overlay::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: -200px;
+    background-image: url(../images/bg-section-top-desktop-1.svg);
+    width: 100%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 30%;
+}
+
+.content .overlay::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    /* top: -200px; */
+    background-image: url(../images/bg-section-bottom-desktop-1.svg);
+    width: 100%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.content h2 {
+    padding-top: 150px;
+    font-weight: 700;
+    font-size: 34px;
+    color: hsl(192, 100%, 9%);
+    padding-bottom: 10px;
+    font-family: "Poppins";
+}
+
+.content p {
+    font-size: 18px;
+    color: #265879;
+}
+
+.content img {
+    padding-top: 50px;
+}
+
+.content-two {
+    margin-top: 200px;
+    margin-bottom: 230px;
+}
+
+.content-two h2 {
+    font-weight: 700;
+    font-size: 34px;
+    color: hsl(192, 100%, 9%);
+    padding-bottom: 10px;
+    padding-top: 120px;
+    padding-left: 20px;
+    font-family: "Poppins";
+}
+
+.content-two p {
+    font-size: 18px;
+    color: #265879;
+    padding-left: 20px;
+}
+
+.content-two img {
+    padding-top: 50px;
+}
+
+.content-three {
+    background-color: #f6fbff;
+    position: relative;
+    width: 100%;
+    margin-bottom: 200px;
+}
+
+.content-three::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: -130px;
+    background-image: url(../images/bg-section-top-desktop-2.svg);
+    width: 100%;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 30%;
+}
+
+.content-three::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    background-image: url(../images/bg-section-bottom-desktop-2.svg);
+    width: 100%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center
+}
+
+.content-three h2 {
+    padding-top: 150px;
+    font-weight: 700;
+    font-size: 34px;
+    color: hsl(192, 100%, 9%);
+    padding-bottom: 10px;
+    font-family: "Poppins";
+}
+
+.content-three p {
+    font-size: 18px;
+    color: #265879;
+}
+
+.content-three img {
+    padding-top: 50px;
+}
+
+@media (max-width: 991px) {
+    .content {
+        text-align: center;
+    }
+    .content-two {
+        text-align: center;
+    }
+    .content-three {
+        text-align: center;
+    }
+}
+
+
+/* Start Section Content */
+
+
+/* Start Section Ready */
+
+.ready h2 {
+    color: hsl(192, 100%, 9%);
+    font-weight: 700;
+    font-family: "Poppins";
+    margin-bottom: 50px;
+}
+
+.ready .btn {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 20px 100px;
+    border-radius: 50px;
+    background-color: hsl(321, 100%, 78%);
+    color: #ffffff;
+    margin-bottom: 300px;
+    border: none;
+}
+
+.ready .btn:hover {
+    box-shadow: 10px 10px 10px #ddd;
+}
+
+
+/* End Section Ready */
+
+
+/* Start Section Footer */
+
+footer {
+    background-color: hsl(192, 100%, 9%);
+    position: relative;
+    padding-top: 70px;
+    color: #fff;
+    padding-bottom: 100px
+}
+
+footer::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: -150px;
+    background-image: url(../images/bg-footer-top-desktop.svg);
+    width: 100%;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 30%;
+}
+
+footer .right>img {
+    margin-bottom: 30px
+}
+
+.right img {
+    color: #fff;
+    padding-right: 20px;
+}
+
+footer .right p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 40px
+}
+
+footer .right i {
+    padding-top: 80px;
+    padding-right: 30px;
+    cursor: pointer;
+}
+
+footer .right i:hover {
+    color: hsl(321, 100%, 78%);
+}
+
+footer .left h2 {
+    padding-bottom: 20px;
+}
+
+footer .left p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+
+footer .left input {
+    width: 55%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid hsl(321, 100%, 78%);
+    float: left;
+    color: hsl(192, 100%, 9%);
+    padding-left: 10px;
+}
+
+footer .left .btn {
+    width: 30%;
+    margin: 0 5%;
+    height: 40px;
+    color: #fff;
+    background-color: hsl(321, 100%, 78%);
+}
+
+@media (max-width: 991px) {
+    footer::before {
+        background-image: url(../images/bg-footer-top-mobile.svg);
+        background-size: cover;
+    }
+}
+
+
+/* End Section Footer */
